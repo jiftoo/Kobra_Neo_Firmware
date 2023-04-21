@@ -1,5 +1,8 @@
 #### Modified Anycubic Kobra Neo V1.33 Firmware
 
+I modified jokubasver's version of the kobra neo firmware and seems like got Lin_Advance working. Also I increased the acceleration. Can't say if it's safe to run, so run on own risk
+
+
 ## Features
 - Increase probing accuracy by doing multiple probes per point
 - Increased speed for the first Z-probe approach when double-probing
@@ -9,9 +12,8 @@
 - Enable M73 Gcode for setting progress bar on printer screen
 - UI changes - black background, removed ugly yellow text color
 - Add personal PID and E-Step values
-
-## Download
-https://github.com/jokubasver/Kobra_Neo/releases
+- LIN_ADVANCE working (V1.5 Marlin!)
+- Increased
 
 ## Flashing
 Copy firmware.bin to your microSD card, insert the card with the printer off, turn printer on and wait until you get to the home screen. Afterwards, delete the firmware.bin file from your card.
@@ -36,6 +38,8 @@ Having these values saved in the firmware itself could save a lot of headaches, 
 https://www.reddit.com/r/anycubic/comments/y2waxu/tutorial_how_to_build_anycubic_marlin_source_code/
 
 ## Based on
+https://github.com/jokubasver/Kobra_Neo
+
 https://github.com/sjorge/Kobra_Neo_Fw
 
 https://github.com/jojos38/anycubic-kobra-improved-firmware

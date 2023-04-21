@@ -519,9 +519,9 @@
   #if ENABLED(PID_PARAMS_PER_HOTEND)
     // Specify between 1 and HOTENDS values per array.
     // If fewer than EXTRUDER values are provided, the last element will be repeated.
-    #define DEFAULT_Kp_LIST {  22.20,  22.20 }
-    #define DEFAULT_Ki_LIST {   1.08,   1.08 }
-    #define DEFAULT_Kd_LIST { 114.00, 114.00 }
+    #define DEFAULT_Kp_LIST {  16.40,  16.40 }
+    #define DEFAULT_Ki_LIST {   0.95,  0.95 }
+    #define DEFAULT_Kd_LIST { 70.80, 70.80 }
   #else
     #define DEFAULT_Kp 	10.08
     #define DEFAULT_Ki  0.39
@@ -564,9 +564,9 @@
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 87.84
-  #define DEFAULT_bedKi 8.51
-  #define DEFAULT_bedKd 604.50
+  #define DEFAULT_bedKp 97.10
+  #define DEFAULT_bedKi 1.41
+  #define DEFAULT_bedKd 1675.16
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -767,7 +767,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 414.68 }     //原来是390
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.630, 80.030, 405.860, 397.96 }     //原来是390
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -787,7 +787,7 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 500, 500, 100, 500 }
+#define DEFAULT_MAX_ACCELERATION      { 1000, 1000, 100, 500 }
 
 //#define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
 #if ENABLED(LIMITED_MAX_ACCEL_EDITING)
@@ -816,8 +816,8 @@
  */
 #define CLASSIC_JERK
 #if ENABLED(CLASSIC_JERK)
-  #define DEFAULT_XJERK  5
-  #define DEFAULT_YJERK  5
+  #define DEFAULT_XJERK  8
+  #define DEFAULT_YJERK  8
   #define DEFAULT_ZJERK  5
 
   //#define TRAVEL_EXTRA_XYJERK 0.0     // Additional jerk allowance for all travel moves
