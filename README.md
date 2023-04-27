@@ -12,7 +12,7 @@ I modified jokubasver's version of the kobra neo firmware and seems like got Lin
 - Enable M73 Gcode for setting progress bar on printer screen
 - UI changes - black background, removed ugly yellow text color
 - Add personal PID and E-Step values
-- LIN_ADVANCE working (V1.5 Marlin!)
+- LIN_ADVANCE working atleast for me with K value being 0.12 (V1.5 Marlin!)
 - Increased
 
 ## Flashing
