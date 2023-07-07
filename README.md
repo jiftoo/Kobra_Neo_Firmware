@@ -21,7 +21,7 @@ Usage:
 - ????
 - profit!
 
-  ![1688762101245](https://github.com/jiftoo/imgopt/assets/39745401/33f2c98d-fddb-42ac-b101-6fb2e378f85e)
+<img src="https://github.com/jiftoo/imgopt/assets/39745401/33f2c98d-fddb-42ac-b101-6fb2e378f85e" width="400" />
 
 #### Modified Anycubic Kobra Neo V1.33 Firmware
 
