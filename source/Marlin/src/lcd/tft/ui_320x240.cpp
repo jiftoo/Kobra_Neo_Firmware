@@ -27,7 +27,6 @@
 #include "dgus_Tunes.h"
 using namespace Anycubic;
 
-
 #if HAS_UI_320x240
 
 #include "ui_common.h"
@@ -432,7 +431,7 @@ void MarlinUI::draw_status_screen(char seclect) {
   tft.set_background(COLOR_BACKGROUND);
   bool  card_detected = card.isMounted();
   if(card_detected)
-  tft.add_image(0, 0, imgSD, COLOR_AQUA);
+  tft.add_image(0, 0, imgSD, COLOR_WHITE);
   else
   tft.add_image(0, 0, imgSD, COLOR_GREY);
 
@@ -447,15 +446,15 @@ void MarlinUI::draw_status_screen(char seclect) {
 //    }
 //    else
 //    {
-//       if(busy)    //ÕýÔÚ´òÓ¡ÖÐ
+//       if(busy)    //ï¿½ï¿½ï¿½Ú´ï¿½Ó¡ï¿½ï¿½
 //       {
 //         color=COLOR_ORANGE;
 //       }
-//       else if(Paused)      //ÔÝÍ£ÖÐ
+//       else if(Paused)      //ï¿½ï¿½Í£ï¿½ï¿½
 //       {
 //         color=COLOR_GREEN; 
 //       }
-//       else          //Ñ¹¸ù¾ÍÃ»ÓÐ´òÓ¡
+//       else          //Ñ¹ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð´ï¿½Ó¡
 //       {
 //         color=COLOR_GREY;
 //       }
@@ -464,15 +463,15 @@ void MarlinUI::draw_status_screen(char seclect) {
 //      tft.add_image(0, 0, imgPause, color);
 //    }
 
-       if(busy)    //ÕýÔÚ´òÓ¡ÖÐ
+       if(busy)    //ï¿½ï¿½ï¿½Ú´ï¿½Ó¡ï¿½ï¿½
        {
          color=COLOR_ORANGE;
        }
-       else if(Paused)      //ÔÝÍ£ÖÐ
+       else if(Paused)      //ï¿½ï¿½Í£ï¿½ï¿½
        {
          color=COLOR_GREEN; 
        }
-       else          //Ñ¹¸ù¾ÍÃ»ÓÐ´òÓ¡
+       else          //Ñ¹ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð´ï¿½Ó¡
        {
          color=COLOR_GREY;
        }
@@ -494,15 +493,15 @@ void MarlinUI::draw_status_screen(char seclect) {
 //    }
 //    else
 //    {
-//       if(busy)    //ÕýÔÚ´òÓ¡ÖÐ
+//       if(busy)    //ï¿½ï¿½ï¿½Ú´ï¿½Ó¡ï¿½ï¿½
 //       {
 //         color=COLOR_RED;
 //       }
-//       else if(Paused)      //ÔÝÍ£ÖÐ
+//       else if(Paused)      //ï¿½ï¿½Í£ï¿½ï¿½
 //       {
 //         color=COLOR_RED; 
 //       }
-//       else          //Ñ¹¸ù¾ÍÃ»ÓÐ´òÓ¡
+//       else          //Ñ¹ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð´ï¿½Ó¡
 //       {
 //         color=COLOR_GREY;
 //       }
@@ -511,15 +510,15 @@ void MarlinUI::draw_status_screen(char seclect) {
 //      tft.add_image(0, 0, imgStop, color);     
 //    }
 
-       if(busy)    //ÕýÔÚ´òÓ¡ÖÐ
+       if(busy)    //ï¿½ï¿½ï¿½Ú´ï¿½Ó¡ï¿½ï¿½
        {
          color=COLOR_RED;
        }
-       else if(Paused)      //ÔÝÍ£ÖÐ
+       else if(Paused)      //ï¿½ï¿½Í£ï¿½ï¿½
        {
          color=COLOR_RED; 
        }
-       else          //Ñ¹¸ù¾ÍÃ»ÓÐ´òÓ¡
+       else          //Ñ¹ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð´ï¿½Ó¡
        {
          color=COLOR_GREY;
        }

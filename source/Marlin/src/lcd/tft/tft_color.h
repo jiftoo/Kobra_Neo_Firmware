@@ -36,9 +36,9 @@
 #define COLOR_BLACK           0x0000  // #000000
 #define COLOR_WHITE           0xFFFF  // #FFFFFF
 #define COLOR_SILVER          0xC618  // #C0C0C0
-#define COLOR_GREY            0x7BEF  // #808080
-#define COLOR_DARKGREY        0x4208  // #404040
-#define COLOR_DARKGREY2       0x39E7  // #303030
+#define COLOR_GREY            0x9146//0x7BEF  // #808080
+#define COLOR_DARKGREY        0x7905  // #404040
+#define COLOR_DARKGREY2       0x5082  // #303030
 #define COLOR_DARK            0x0003  // #000019
 
 #define COLOR_RED             0xF800  // #FF0000
@@ -63,15 +63,15 @@
 #define COLOR_PURPLE          0x8010  // #800080
 #define COLOR_TEAL            0x0410  // #008080
 
-#define COLOR_ORANGE          0xFC00  // #FF7F00
-#define COLOR_VIVID_GREEN     0x7FE0  // #7FFF00
-#define COLOR_DARK_ORANGE     0xFC40  // #FF8C00
+#define COLOR_ORANGE          0xFB80  // #FF7F00
+#define COLOR_VIVID_GREEN     0xB189 //0x7FE0  // #7FFF00
+#define COLOR_DARK_ORANGE     0xF2E0  // #FF8C00
 #define COLOR_CORAL_RED       0xF9E7  // #FF3F3F
 
 #define COLOR_DARK_PURPLE     0x9930  // #992380
 
 #ifndef COLOR_BACKGROUND
-  #define COLOR_BACKGROUND    0x0000  // #000000
+  #define COLOR_BACKGROUND    COLOR_ORANGE  // #000000
 #endif
 #ifndef COLOR_SELECTION_BG
   #define COLOR_SELECTION_BG  0x4208  // #992380
@@ -81,25 +81,25 @@
 #endif
 
 #ifndef COLOR_INACTIVE
-  #define COLOR_INACTIVE          COLOR_GREY
+  #define COLOR_INACTIVE          0xC321
 #endif
 #ifndef COLOR_COLD
-  #define COLOR_COLD              COLOR_AQUA
+  #define COLOR_COLD              COLOR_WHITE
 #endif
 #ifndef COLOR_HOTEND
   #define COLOR_HOTEND            COLOR_SCARLET
 #endif
 #ifndef COLOR_HEATED_BED
-  #define COLOR_HEATED_BED        COLOR_DARK_ORANGE
+  #define COLOR_HEATED_BED        0xB989
 #endif
 #ifndef COLOR_CHAMBER
-  #define COLOR_CHAMBER           COLOR_DARK_ORANGE
+  #define COLOR_CHAMBER           0xD1CB // idk what this is?
 #endif
 #ifndef COLOR_COOLER
-  #define COLOR_COOLER            COLOR_DARK_ORANGE
+  #define COLOR_COOLER            0xD1CB // neither this
 #endif
 #ifndef COLOR_FAN
-  #define COLOR_FAN               COLOR_AQUA
+  #define COLOR_FAN               COLOR_WHITE
 #endif
 
 #ifndef COLOR_AXIS_HOMED
@@ -121,10 +121,10 @@
 #endif
 
 #ifndef COLOR_PROGRESS_FRAME
-  #define COLOR_PROGRESS_FRAME    COLOR_WHITE
+  #define COLOR_PROGRESS_FRAME    0x10C8
 #endif
 #ifndef COLOR_PROGRESS_BAR
-  #define COLOR_PROGRESS_BAR      COLOR_BLUE
+  #define COLOR_PROGRESS_BAR      0x4D17
 #endif
 #ifndef COLOR_PROGRESS_BG
   #define COLOR_PROGRESS_BG       COLOR_BLACK
@@ -138,30 +138,30 @@
   #define COLOR_CONTROL_ENABLED   COLOR_WHITE
 #endif
 #ifndef COLOR_CONTROL_DISABLED
-  #define COLOR_CONTROL_DISABLED  COLOR_GREY
+  #define COLOR_CONTROL_DISABLED  0xC321
 #endif
 #ifndef COLOR_CONTROL_CANCEL
   #define COLOR_CONTROL_CANCEL    COLOR_SCARLET
 #endif
 #ifndef COLOR_CONTROL_CONFIRM
-  #define COLOR_CONTROL_CONFIRM   COLOR_VIVID_GREEN
+  #define COLOR_CONTROL_CONFIRM   0x10C8
 #endif
 #ifndef COLOR_BUSY
-  #define COLOR_BUSY              COLOR_SILVER
+  #define COLOR_BUSY              0x7105
 #endif
 
 #ifndef COLOR_MENU_TEXT
-  #define COLOR_MENU_TEXT         COLOR_WHITE
+  #define COLOR_MENU_TEXT         0x10C8
 #endif
 #ifndef COLOR_MENU_VALUE
-  #define COLOR_MENU_VALUE        COLOR_AQUA
+  #define COLOR_MENU_VALUE        COLOR_WHITE
 #endif
 
 #ifndef COLOR_SLIDER
   #define COLOR_SLIDER            COLOR_WHITE
 #endif
 #ifndef COLOR_SLIDER_INACTIVE
-  #define COLOR_SLIDER_INACTIVE   COLOR_GREY
+  #define COLOR_SLIDER_INACTIVE    0x7105
 #endif
 
 #ifndef COLOR_UBL
