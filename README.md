@@ -21,6 +21,8 @@ Usage:
 - ????
 - profit!
 
+  ![1688762101245](https://github.com/jiftoo/imgopt/assets/39745401/33f2c98d-fddb-42ac-b101-6fb2e378f85e)
+
 #### Modified Anycubic Kobra Neo V1.33 Firmware
 
 I modified jokubasver's version of the kobra neo firmware and seems like got Lin_Advance working. Also I increased the acceleration. Can't say if it's safe to run, so run on own risk
