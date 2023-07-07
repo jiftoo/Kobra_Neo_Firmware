@@ -1,3 +1,7 @@
+#### Modified (again) Anycubic Kobra Neo V1.33 Firmware
+
+Decided to fork TheUnlimited64's linear advance mod to test it out and reduce the driver current while I'm at it. 800 mA get my motor really hot and 600 mA is the stock setting. I set the current 20 mA above stock as a compromise (eyeballed really).
+
 #### Modified Anycubic Kobra Neo V1.33 Firmware
 
 I modified jokubasver's version of the kobra neo firmware and seems like got Lin_Advance working. Also I increased the acceleration. Can't say if it's safe to run, so run on own risk
