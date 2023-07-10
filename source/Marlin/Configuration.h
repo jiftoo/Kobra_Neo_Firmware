@@ -519,13 +519,13 @@
   #if ENABLED(PID_PARAMS_PER_HOTEND)
     // Specify between 1 and HOTENDS values per array.
     // If fewer than EXTRUDER values are provided, the last element will be repeated.
-    #define DEFAULT_Kp_LIST {  16.40,  16.40 }
-    #define DEFAULT_Ki_LIST {   0.95,  0.95 }
-    #define DEFAULT_Kd_LIST { 70.80, 70.80 }
+    // #define DEFAULT_Kp_LIST {  16.40,  16.40 }
+    // #define DEFAULT_Ki_LIST {   0.95,  0.95 }
+    // #define DEFAULT_Kd_LIST { 70.80, 70.80 }
   #else
-    #define DEFAULT_Kp 	10.08
-    #define DEFAULT_Ki  0.39
-    #define DEFAULT_Kd 	65.84
+    #define DEFAULT_Kp 	21.60
+    #define DEFAULT_Ki  1.59
+    #define DEFAULT_Kd 	73.21
   #endif
 #endif // PIDTEMP
 
