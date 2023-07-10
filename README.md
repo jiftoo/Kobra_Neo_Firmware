@@ -1,6 +1,6 @@
 #### Modified (again) Anycubic Kobra Neo V1.33 Firmware
 
-Decided to fork TheUnlimited64's linear advance mod to test it out and reduce the driver current while I'm at it. 800 mA get my motor really hot and 600 mA is the stock setting. I set the current 20 mA above stock as a compromise (eyeballed really).
+Decided to fork TheUnlimited64's linear advance mod to test it out and reduce the driver current while I'm at it. 800 mA get my motor really hot and 600 mA is the stock setting. I set the current 75 mA above stock as a compromise (eyeballed really).
 
 I also added a tool to aid with changing the splash image shown on boot.
 
@@ -21,7 +21,7 @@ Usage:
 - ????
 - profit!
 
-  ![1688762101245](https://github.com/jiftoo/imgopt/assets/39745401/33f2c98d-fddb-42ac-b101-6fb2e378f85e)
+<img src="https://github.com/jiftoo/imgopt/assets/39745401/33f2c98d-fddb-42ac-b101-6fb2e378f85e" width="400" />
 
 #### Modified Anycubic Kobra Neo V1.33 Firmware
 
